@@ -30,3 +30,11 @@ end
 group :test do
   gem "rake", "~> 10.0.4"
 end
+
+# JS fix
+gem 'therubyracer'
+# test
+gem 'rubocop'
+gem 'brakeman'
+gem 'railroadmap',github: 'munetoh/railroadmap'
+
